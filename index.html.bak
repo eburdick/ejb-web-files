@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">   	
+    <head>
+        <style type="text/css">
+            *.title_line {color: black; font: 30pt Helvetica, sans-serif; text-align: center; line-height: 80%;}
+            IMG.title_picture {display: block; margin-left: auto; margin-right: auto;}
+            *.centered_heading {text-align: center; font: 24pt helvetica, sans-serif; line-height: 25%;}
+            *.topic_heading {font: bold 14pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+            table.personal {border: 1px; height: 5px; width: 90%; margin-left: auto; margin-right: auto; padding: 2px;}
+            table td {padding: 2px; text-align: left;}
+            *.table_link {font: bold 12pt helvetica, sans-serif; }
+            p.link {font: bold 14pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+            p.medium_link {font: bold 12pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+            p.medium_link_indent {font: bold 12pt helvetica, sans-serif; margin-left: 20px; margin-top:0; margin-bottom:0; }
+            p.medium_text_indent {font: 12pt helvetica, sans-serif; margin-left: 30px; margin-top:0; margin-bottom:0; }
+            p.small_link {font: bold 10pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+            .accordion 
+            {
+                background-color: #eee;
+                color: "black";
+                cursor: pointer;
+                padding: 5px;
+                width: 100%;
+                border: 10px solid white;
+                text-align: center;
+                outline: none;
+                font: 24pt helvetica;
+                font-size: 24px;
+                transition: 0.4s;
+            }
+          
+            .active, .accordion:hover 
+            {
+                background-color: #ccc; 
+            }
+              
+            .panel 
+            {
+                padding: 0 5px;
+                display: none;
+                background-color: white;
+                overflow: hidden;
+            }
+        </style>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>Ed Burdick's Home Page</title>
+    </head>
+    
+    <body>
+    
+        <h1 class="title_line">Ed Burdick's Home Page</h1>
+          
+        <img class="title_picture"
+            alt="Ed off Zanzibar" 
+            title="Ed on a dhow in Zanzibar Channel" 
+            src="20171003-171507_dsc00154.jpg"
+        />
+        <br />
+                
+        <button class="accordion" name="personal">Personal Links</button>
+        
+        <div class="panel">
+            <div class="w3-row">
+             	<div class="w3-third w3-container">
+                   <a class="table_link" href="minimill-calc.html">MiniMill Assistant</a>
+                </div>
+                <div class="w3-third w3-container">
+                   <a class="table_link" href="http://www.google.com/">Google</a> 
+                </div>
+            	<div class="w3-third w3-container">
+                   <a class="table_link" href="https://www.dcu.org/index.html">DCU</a>
+                </div>
+            </div>
+            
+            <div class="w3-row">
+             	<div class="w3-third w3-container">
+             		<a class="table_link" href="http://edburdick.net/mw">My site MediaWiki</a>
+                </div>
+                <div class="w3-third w3-container">
+                    <a class="table_link" 
+                        href="http://forecast.weather.gov/MapClick.php?CityName=Westborough&state=MA&site=BOX&lat=42.2659&lon=-71.6171">
+                        NOAA Weather
+                    </a>
+                </div>
+            	<div class="w3-third w3-container">
+                    <a class="table_link" href="https://mychart.reliantmedicalgroup.org/mychart/">MyChart</a>
+                </div>
+            </div>
+         
+            <div class="w3-row">
+         	    <div class="w3-third w3-container"> 
+         	        <a class="table_link" href="http://edburdick.net/webmail">My site webmail</a>
+                </div>
+                <div class="w3-third w3-container">
+            	    <a class="table_link" href="http://team4048.org">FRC Team 4048</a>
+                </div>
+        	    <div class="w3-third w3-container">
+        	        <a class="table_link" href="https://www.aarpmedicareplans.com/aarp-members/sign-in">AARP Medigap</a>
+                </div>
+            </div>
+        
+            <div class="w3-row">
+            	<div class="w3-third w3-container">
+            		<a class="table_link" href="https://chi.midphase.com/">edburdick.net Admin</a>
+                </div>
+                <div class="w3-third w3-container">
+               	    <a class="table_link" href="http://firstinspires.org">FIRST Robotics</a>
+                </div>
+           	    <div class="w3-third w3-container">           
+           		    <a class="table_link" href="https://intel.benevity.org/">Intel Benevity Login</a>
+                </div>
+            </div>
+            
+            <div class="w3-row">
+            	<div class="w3-third w3-container"> 
+            		<a class="table_link" href="http://localhost/index.html">Local Web Dev Area</a>
+                </div>
+                <div class="w3-third w3-container">            
+               	    <a class="table_link" href="http://www.ieee.org">IEEE</a>
+                </div>
+           	    <div class="w3-third w3-container"> 
+           		    <a class="table_link" href="http://www.mobal.com">Mobal Account</a>
+                </div>
+            </div>
+                  
+            <div class="w3-row">
+            	<div class="w3-third w3-container">
+            		<a class="table_link" href="http://www.cvsphoto.com/home">CVS Photo Center</a>
+                </div>
+                <div class="w3-third w3-container">
+               	    <a class="table_link" href="http://www.amazon.com">Amazon</a>
+                </div>
+           	    <div class="w3-third w3-container">
+           		    <a class="table_link" href="http://www.burdickfamily.org">burdickfamily.org</a>
+                </div>
+            </div>
+                   
+            <div class="w3-row">
+            	<div class="w3-third w3-container">
+            	    <a class="table_link" href="http://www.linkedin.com/pub/5/b01/976">LinkedIn</a>
+                </div>
+                <div class="w3-third w3-container">
+                    <a class="table_link" href="http://www.kayak.com">KAYAK travel site</a>       
+                </div>
+           	    <div class="w3-third w3-container">
+                    <a class="table_link" href="http://www.uucsw.org/">UUCSW</a>
+                </div>
+            </div> 
+        </div>
+    
+        <button class="accordion" name="arts">Family Arts Stuff</button>
+        <div class="panel">
+        
+            <p class="link"> <a href="Picturelib">My photo albums</a></p>
+              This takes you to my entire web archive of travel pictures.
+            <br />
+            
+            <p class="medium_link_indent"> <a href="http://www.edburdick.net/Picturelib/2017v-tanzania-trip//">Shortcut to my Serengeti Safari trip in Tanzania</a></p>
+            <br />
+            
+            <p class="link"> <a href="video/family">Family Video Clips</a></p>
+              This is some of our classic video clips from days long gone.<br /><br />
+        
+            <p class="topic_heading">Stacey Charpentier's Music Links</p>
+            <p class="small_link"> <a href="http://www.edburdick.net/music/stacey/schoolhouse1/taeduhs-school-house-recording_v2.html">Stacey's Studio Recordings</a></p><br />
+
+            <p class="topic_heading"> 
+            Rachel Burdick's Laudate Dominum solo with <a href="http://arsingers.org">ARS</a></p>
+            Rachel Burdick sings the solo part of this Mozart
+              piece from the Solemn Vespers. ARS is the Arizona Repertory Singers.    
+            <p class="link"> 
+              <a href="video/rachel_laudate/index.html">Video with introduction by the late Jeffry Jahn</a>
+              <br />
+              <a href="video/rachel_laudate/LaudateDominumRCB.mp3">MP3 audio</a>
+            </p>
+        </div>
+        
+        <button class="accordion" name="first">FIRST Robotics Stuff</button>
+        <div class="panel">
+            
+            <p class="link"> <a href="http://www.usfirst.org">FIRST Robotics</a></p>
+              I am a volunteer mentor and coach for FIRST Robotics Competition.  I am currently a 
+              mentor/coach on team 4048, RedShift, at Westborough High School, Westborough, MA.
+              RedShift's rookie year was 2012, and I joined at the beginning of the 2012-2013 school 
+              year. Besides sharing a lead mentor role with the founder of the team, my
+              main role is as the principal mentor on the hardware design and build and sharing 
+              coaching responsibilities at competitions. The team went to the world
+              championship in the 2015 season, and qualified for it in the 2016 season, deciding 
+              to decline for practical reasons (mentors had to work and the timing was not
+              right for the school year.) Regular competions were suspended in 2020 and 2021 because 
+              of the Covid-19 pandemic, but it looks like we will be able to start again
+              for the 2022 season.
+              <br />
+              <br />
+              
+              For the 2009 - 2012 seasons, I mentored and coached teams 1510 
+              (Wildcats) and 2898 (Flying Hedgehogs) in Beaverton, OR.
+              Team 1510 won the 2011 Cascade regional competition in Seattle 
+              and the 2011 Portland competition Chairman's award, 
+              so we were invited to the World Championship in St. Louis, where 
+              we came out around the middle of the field against 
+              the best teams in the world.  Both teams made the elimination rounds at 
+              the 2012 Oregon regional and at the 2012 Seattle regionals.  Though I
+              relocated to Westborough, Massachusetts in March, 2012, I coached team 2898 
+              in April one last time at the World Championship in St. Louis.<br />
+              <br />
+              
+            <p class="medium_link_indent"> 
+            	<a href="https://www.facebook.com/Redshift4048/videos/2178574615706341/"target="_blank" rel="noopener noreferrer">
+            		Drive practice and testing the 2018 robot with arm/gripper V2 and climber.</a></p> 
+            <p class="medium_link_indent"> 
+            	<a href="https://www.youtube.com/watch?v=wUDUTQLZ5QE">
+            		RedShift's 2013 robot blocking two shots during autonomous play at the New England championship.</a></p>
+            <p class="medium_text_indent"> 
+            	This was the talk of the tournament for the rest of the day.</p> 
+            <p class="medium_link_indent"> 
+            	<a href="http://team4048.org/">The RedShift web site</a></p>
+            <p class="medium_link_indent"> 
+            	<a href="https://www.facebook.com/Redshift4048">The RedShift facebook page</a></p>
+            <p class="medium_link_indent"> 
+            	<a href="https://www.youtube.com/user/FIRSTteam4048">The RedShift YouTube Channel</a></p>
+                <br />
+                There was a lot of good media coverage of FIRST Robotics over the years from very visible outlets like CNN and ABC.  Another
+                major shot in the arm for visibility of FIRST is the collaboration of Will.i.am, who has done a great deal to 
+                promote the program and competitions.
+                <br />
+                <br />
+        
+            <p class="medium_link_indent"> <a href="https://www.youtube.com/watch?v=gmiYWTmFRVE">2020 game animation</a></p><br />
+        
+            <p class="medium_link_indent">
+                <a href="http://www.youtube.com/watch?v=BohT20oUy4M&feature=player_embedded">i.am.FIRST: Science is Rock and Roll</a></p>
+                Will.i.am presents the 2011 FIRST Robotics World Championship, including clips of the half time concert by the Black Eyed Peas, and 
+                introduced by President Obama. Nine minutes and 39 seconds into the video, you can see team 1510's Quentin (in red) rocking out at 
+                the concert. This You Tube video was posted by FTC team 3415 <br />
+                <br />
+              
+            <p class="medium_link_indent"> 
+                <a href="https://youtu.be/e7ob1AfM1Dg">
+                Soledad O'Brien's CNN report on math and science education in America.</a></p>  
+                FIRST robotics is profiled as an example of a technology education program that works across
+                the demographic spectrum.  Lot's of FRC action here with teams 842, 1403 and 3675, three teams with 
+                very different demographics and students with very different stories. There are six parts to this video, 
+                hosted on YouTube by Team 2403, Plasma Robotics<br />
+                <br /> 
+              
+            <p class="medium_link_indent">
+                <a href="https://www.youtube.com/watch?v=Vv5utwR-Cfg">
+                Kareem Abdul-Jabbar, a strong FIRST supporter, with basketball playing robot at the 2012 FIRST World Championship</a><br />	
+                <br />
+                
+             <p class="medium_link_indent"> 
+            	<a href="http://www.youtube.com/watch?v=i1QyM9WTF18">2011 FIRST Robotics promotion with Morgan Freeman</a></p>
+                <br />      
+        
+        </div>
+     <p id="report"></p>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) 
+            {
+                acc[i].addEventListener("click", function() 
+                {
+                      this.classList.toggle("active");
+                      var panel = this.nextElementSibling;
+                      if (panel.style.display === "block") 
+                      {
+                          panel.style.display = "none";
+                      } 
+                      else 
+                      {
+                          panel.style.display = "block";
+                      }
+                      document.getElementById("report").innerHTML = this.name.concat(" ",panel.style.display);
+ 
+                });
+            }
+        </script>
+    
+    </body>
+</html>

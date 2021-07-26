@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+  <head>
+    <style type="text/css">
+      *.title_line {color: black; font: 30pt Helvetica, sans-serif; text-align: center; line-height: 80%;}
+      IMG.title_picture {display: block; margin-left: auto; margin-right: auto;}
+      *.centered_heading {text-align: center; font: 24pt helvetica, sans-serif; line-height: 25%;}
+      *.topic_heading {font: bold 14pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+      table.personal {border: 1px; height: 5px; width: 90%; margin-left: auto; margin-right: auto; padding: 2px;}
+      table td {padding: 2px; text-align: left;}
+      *.table_link {font: bold 12pt helvetica, sans-serif; }
+      p.link {font: bold 14pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+      p.medium_link {font: bold 12pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+      p.medium_link_indent {font: bold 12pt helvetica, sans-serif; margin-left: 20px; margin-top:0; margin-bottom:0; }
+      p.medium_text_indent {font: 12pt helvetica, sans-serif; margin-left: 30px; margin-top:0; margin-bottom:0; }
+      p.small_link {font: bold 10pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Ed Burdick's Home Page</title>
+  </head>
+  <body>
+
+    <h1 class="title_line">Ed Burdick's Home Page</h1>
+      
+    <img class="title_picture"
+      alt="Ed off Zanzibar" 
+      title="Ed on a dhow in Zanzibar Channel" 
+      src="20171003-171507_dsc00154.jpg"
+    />
+        
+    <p class="centered_heading">---Personal Links---</p>
+
+ <div class="w3-row">
+ 	<div class="w3-third w3-container">
+       <a href="minimill-calc.html">MiniMill Assistant</a>
+    </div>
+    <div class="w3-third w3-container">
+       <a href="http://www.google.com/">Google</a> 
+    </div>
+	<div class="w3-third w3-container">
+       <a href="https://www.dcu.org/index.html">DCU</a>
+    </div>
+ </div>
+ 
+ <div class="w3-row">
+ 	<div class="w3-third w3-container">
+ 		<a class="table_link"
+              href="http://edburdick.net/mw">
+              My site MediaWiki
+        </a>
+    </div>
+    <div class="w3-third w3-container">
+            <a class="table_link" 
+              href="http://forecast.weather.gov/MapClick.php?CityName=Westborough&state=MA&site=BOX&lat=42.2659&lon=-71.6171">
+              NOAA Weather
+            </a>
+    </div>
+	<div class="w3-third w3-container">
+            <a class="table_link" 
+              href="https://mychart.reliantmedicalgroup.org/mychart/">
+              MyChart
+            </a>
+    </div>
+ </div>
+ 
+  <div class="w3-row">
+ 	<div class="w3-third w3-container">
+ 		<a class="table_link" 
+              href="http://edburdick.net/webmail">
+              My site webmail
+        </a>
+    </div>
+    <div class="w3-third w3-container">
+    	<a class="table_link"
+              href="http://team4048.org">
+              FRC Team 4048
+        </a>
+    </div>
+	<div class="w3-third w3-container">
+		<a class="table_link"
+              href="https://www.aarpmedicareplans.com/aarp-members/sign-in">
+              AARP Medigap
+        </a>
+    </div>
+ </div>
+
+ <div class="w3-row">
+ 	<div class="w3-third w3-container">
+ 		<a class="table_link" 
+              href="https://chi.midphase.com/">
+              edburdick.net Site Admin
+        </a>
+ 
+    </div>
+    <div class="w3-third w3-container">
+    	<a class="table_link" 
+              href="http://firstinspires.org">
+              FIRST Robotics
+        </a>
+    </div>
+	<div class="w3-third w3-container">           
+		<a class="table_link" 
+              href="https://intel.benevity.org/">
+              Intel Benevity Login
+        </a>
+
+    </div>
+ </div>
+ 
+  <div class="w3-row">
+ 	<div class="w3-third w3-container">
+    </div>
+    <div class="w3-third w3-container">
+    </div>
+	<div class="w3-third w3-container">
+    </div>
+ </div>
+ 
+
+   
+    <table class="personal"> 
+      <tbody> 
+    
+          
+  
+        
+           
+        <tr>
+          <td>
+            <a class="table_link" 
+              href="http://localhost/sandbox">
+              Local Web Dev Area
+            </a>
+          </td>
+          <td>
+            <a class="table_link"
+              href="http://www.rottentomatoes.com/">
+              Rotten Tomatoes
+            </a>
+          </td>
+          <td>
+            <a class="table_link" 
+              href="http://www.ieee.org">
+              IEEE
+            </a>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            <a class="table_link" 
+              href="http://www.mobal.com">
+              Mobal Account
+            </a>
+          </td>
+          <td>
+            <a class="table_link"
+              href="http://www.cvsphoto.com/home">
+              CVS Photo Center
+            </a>
+          </td>
+          <td>
+            <a class="table_link"
+              href="http://www.amazon.com">
+              Amazon
+            </a>
+          </td>
+        </tr>
+              
+        <tr>
+          <td>
+            <a class="table_link"
+              href="http://www.burdickfamily.org">
+              burdickfamily.org
+            </a>
+          </td>
+          <td>
+            <a class="table_link"
+              href="http://www.mobal.com">
+              Mobal Account
+            </a>
+          </td>
+          <td>
+            <a class="table_link"
+              href="http://www.linkedin.com/pub/5/b01/976">
+              LinkedIn
+            </a>
+          </td>
+        </tr>
+        
+        <tr>
+          <td>
+            <a class="table_link" 
+              href="http://www.kayak.com">
+              KAYAK travel site
+            </a>
+          </td>
+          <td>
+            <a class="table_link"
+              href="http://www.uucsw.org/">
+              UUCSW
+            </a>
+          </td>
+          <td>
+            <a class="table_link"
+              href="http://www.angieslist.com">
+              Angie's List
+            </a>
+          </td>
+
+        </tr>
+ 
+
+      </tbody>
+    </table>
+    
+	<h2 class="centered_heading">---Featured Links---</h2>
+
+
+    <p class="link"> <a href="Picturelib">My photo albums</a></p>
+      This takes you to my entire web archive of travel pictures.<br />
+    <br />
+    <p class="medium_link_indent"> <a href="http://www.edburdick.net/Picturelib/2017v-tanzania-trip//">Shortcut to my Serengeti Safari trip in Tanzania</a></p>
+    <br />
+    
+    <p class="link"> <a href="video/family">Family Video Clips</a></p>
+      This is some of our classic video clips from days long gone.<br /><br />
+
+    <p class="topic_heading">Stacey Charpentier's Music Links</p>
+    <p class="small_link"> <a href="http://www.edburdick.net/music/stacey/schoolhouse1/taeduhs-school-house-recording_v2.html">Stacey's Studio Recordings</a></p><br />
+
+    <p class="small_link"> <a href="http://www.youtube.com/watch?v=NK2WfZ2_z-w">Cell phone video at Sam's Pizza - "I Want a Brunette." A good audio recording of this song is in the studio recordings above. </a></p>
+    <br />      
+
+
+    
+    <p class="topic_heading"> 
+    Rachel Burdick's Laudate Dominum solo with <a href="http://arsingers.org">ARS</a></p>
+    Rachel Burdick sings the solo part of this Mozart
+      piece from the Solemn Vespers. ARS is the Arizona Repertory Singers.    
+    <p class="link"> 
+      <a href="video/rachel_laudate/index.html">Video with introduction by the late Jeffry Jahn</a>
+      <br />
+      <a href="video/rachel_laudate/LaudateDominumRCB.mp3">MP3 audio</a>
+    </p>
+    <br />
+    <br />
+    
+    
+    <p class="link"> <a href="http://www.usfirst.org">FIRST Robotics</a></p>
+      I am a volunteer mentor and coach for FIRST Robotics Competition.  I currently work with team 4048, RedShift, at Westborough High School, Westborough, MA.
+      RedShift's 2019 team is just forming, which is the start of its eighth year - my seventh season with the team. The team went to the world
+      championship in the 2015 season, and qualified for it in the 2016 season, deciding to decline for practical reasons (mentors had to work and the timing was not
+      right for the school year.)<br/>
+      <br />
+      For the 2009 - 2012 seasons, I mentored and coached teams 1510 (Wildcats) and 2898 (Flying Hedgehogs) in Beaverton, OR.
+      Team 1510 won the 2011 Cascade regional competition in Seattle and the 2011 Portland competition Chairman's award, 
+      so we were invited to the World Championship in St. Louis, where we came out around the middle of the field against 
+      the best teams in the world.  Both teams made the elimination rounds at the 2012 Oregon regional and at the 2012 Seattle regionals.  Though I
+      relocated to Westborough, Massachusetts in March, 2012, I joined team 2898 in April one last time at the World Championship in St. Louis.<br />
+      <br />
+      
+    <p class="medium_link_indent"> <a href="https://www.facebook.com/Redshift4048/videos/2178574615706341/">Drive practice and testing the 2018 robot with arm/gripper V2 and climber.</a></p> 
+    <p class="medium_link_indent"> <a href="https://www.youtube.com/watch?v=wUDUTQLZ5QE">RedShift's 2013 robot blocking two shots during autonomous play at the New England championship.</a></p>
+    <p class="medium_text_indent"> This was the talk of the tournament for the rest of the day.</p> 
+    <p class="medium_link_indent"> <a href="http://team4048.org/">The RedShift web site</a></p>
+    <p class="medium_link_indent"> <a href="https://www.facebook.com/Redshift4048">The RedShift facebook page</a></p>
+    <p class="medium_link_indent"> <a href="https://www.youtube.com/user/FIRSTteam4048">The RedShift YouTube Channel</a></p>
+	<p class="medium_link_indent"> <a href="http://edburdick.net/mw/index.php?title=Robotics-pages">My robotics tutorial wiki pages</a></p>
+      <br />
+      There was a lot of good media coverage of FIRST Robotics over the years from very visible outlets like CNN and ABC.  Another
+      major shot in the arm for visibility of FIRST is the collaboration of Will.i.am, who has done a great deal to 
+      promote the program and competitions.
+      <br />
+      <br />
+
+    <p class="medium_link_indent"> <a href="https://www.youtube.com/watch?v=HZbdwYiCY74">2018 game animation</a></p><br />
+
+    <p class="small_link">
+      <a href="http://www.youtube.com/watch?v=BohT20oUy4M&feature=player_embedded">i.am.FIRST: Science is Rock and Roll</a><br />
+      Will.i.am presents the 2011 FIRST Robotics World Championship, including clips of the half time concert by the Black Eyed Peas, and 
+      introduced by President Obama. Nine minutes and 39 seconds into the video, you can see team 1510's Quentin (in red) rocking out at 
+      the concert. This You Tube video was posted by FTC team 3415 <br />
+      <br />
+    <p class="small_link"> 
+      <a href="https://youtu.be/e7ob1AfM1Dg">
+      Soledad O'Brien's CNN report on math and science education in America.</a></p>  
+      FIRST robotics is profiled as an example of a technology education program that works across
+      the demographic spectrum.  Lot's of FRC action here with teams 842, 1403 and 3675, three teams with very different demographics and students with very different stories. There are six parts to this video, hosted on YouTube by Team 2403, Plasma Robotics<br />
+      <br />
+    <p class="small_link"> 
+      
+    <p class="small_link">
+      <a href="https://www.youtube.com/watch?v=WWYZ0B6MroU">
+      FIRST robots lead the 2013 Macy's Thanksgiving Parade</a><br />
+    <p class="small_link">
+      <a href="https://www.youtube.com/watch?v=Vv5utwR-Cfg">
+      Kareem Abdul-Jabbar, a strong FIRST supporter, with basketball playing robot at the 2012 FIRST World Championship</a><br />	
+    <p class="small_link"> 
+      <a href="https://www.youtube.com/watch?v=SyIpO_aJIxU&list=PLF04CCB80AE3DBB51">
+        DeanKamen and Will.i.am discuss FIRST Robotics with Piers Morgan on CNN</a></p>
+    <p class="small_link"> 
+      <a href="https://www.youtube.com/watch?v=-TBJ1Y3tGYc">
+        Bloomberg Television "Street Smart":Interview with Dean Kamen about education and FIRST</a></p>
+    <p class="small_link"> <a href="https://www.youtube.com/watch?v=33_nZaOUWYw#t=15m39s">Team 623 demonstrates their 2009 FRC robot in the last 3 minutes of President Obama's "Educate to Innovate" kickoff</a></p> 
+    <p class="small_link"> <a href="http://www.youtube.com/watch?v=i1QyM9WTF18">2011 FIRST Robotics promotion with Morgan Freeman</a></p>
+    <p class="small_link"> <a href="http://www.youtube.com/watch?v=5hSBvGG6vSk">Will.i.am press conference at St. Louis FIRST World Championship</a></p> 
+    <br />      
+
+  </body>
+</html>
