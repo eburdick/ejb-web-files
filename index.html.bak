@@ -16,6 +16,11 @@
             p.medium_link_indent {font: bold 12pt helvetica, sans-serif; margin-left: 20px; margin-top:0; margin-bottom:0; }
             p.medium_text_indent {font: 12pt helvetica, sans-serif; margin-left: 30px; margin-top:0; margin-bottom:0; }
             p.small_link {font: bold 10pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+            .centered {text-align: center;}
+            /*
+            Set the style of the "accordion" buttons the expand and collapse the main panels of the page.
+            The actually don't look like buttons because They are set with no border and a transparent background.
+            */
             .accordion 
             {
                 color: blue;
@@ -32,11 +37,10 @@
                 border: 0;
             }
           
-            /*.active, .accordion:hover 
-            {
-                background-color: #ccc;
-            }*/
-              
+            /*
+            Display panel style. It is set to not display, but the event functions for the corresponding
+            buttons toggle the display between "none" and "block", where "block" makes the panel visible
+            */
             .panel 
             {
                 padding: 0 5px;
@@ -45,6 +49,7 @@
                 overflow: hidden;
             }
         </style>
+        
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <title>Ed Burdick's Home Page</title>
     </head>
@@ -60,8 +65,122 @@
         />
         <br />
                 
+        <div class="centered">
+            <p class="link"> <a href="Picturelib">Featured Link: My photo albums</a></p>
+            This takes you to my entire web archive of travel pictures. 
+            <br />
+            <p class="medium_link_indent"> <a href="http://www.edburdick.net/Picturelib/2017v-tanzania-trip//">Shortcut to my Serengeti Safari trip in Tanzania</a></p>
+            <br />
+        </div>
+    
+        <!-- Button and panel for links to family arts stuff, including my photography, family videos and 
+        musical performances -->
+        <button class="accordion" name="arts" id="family_arts_button">Family Arts Stuff...</button>
+        <div class="panel" id="family_arts_panel">
+        
+            
+            <p class="link"> <a href="video/family">Family Video Clips</a></p>
+              This is some of our classic video clips from days long gone.<br /><br />
+        
+            <p class="topic_heading">Stacey Charpentier's Music Links</p>
+            <p class="small_link"> <a href="http://www.edburdick.net/music/stacey/schoolhouse1/taeduhs-school-house-recording_v2.html">Stacey's Studio Recordings</a></p><br />
+
+            <p class="topic_heading"> 
+            Rachel Burdick's Laudate Dominum solo with <a href="http://arsingers.org">ARS</a></p>
+            Rachel Burdick sings the solo part of this Mozart
+              piece from the Solemn Vespers. ARS is the Arizona Repertory Singers.    
+            <p class="link"> 
+              <a href="video/rachel_laudate/index.html">Video with introduction by the late Jeffry Jahn</a>
+              <br />
+              <a href="video/rachel_laudate/LaudateDominumRCB.mp3">MP3 audio</a>
+            </p>
+        </div>
+        
+        <!-- button and panel for my first robotics stuff -->
+        <button class="accordion" name="first" id="first_robotics_button">FIRST Robotics Stuff...</button>
+        <div class="panel" id="first_robotics_panel">
+            
+            <p class="link"> <a href="http://www.usfirst.org">FIRST Robotics</a></p>
+              I am a volunteer mentor and coach for FIRST Robotics Competition.  I am currently a 
+              mentor/coach on team 4048, RedShift, at Westborough High School, Westborough, MA.
+              RedShift's rookie year was 2012, and I joined at the beginning of the 2012-2013 school 
+              year. Besides sharing a lead mentor role with the founder of the team, my
+              main role is as the principal mentor on the hardware design and build and sharing 
+              coaching responsibilities at competitions. The team went to the world
+              championship in the 2015 season, and qualified for it in the 2016 season, deciding 
+              to decline for practical reasons (mentors had to work and the timing was not
+              right for the school year.) Regular competions were suspended in 2020 and 2021 because 
+              of the Covid-19 pandemic, but it looks like we will be able to start again
+              for the 2022 season.
+              <br />
+              <br />
+              
+              For the 2009 - 2012 seasons, I mentored and coached teams 1510 
+              (Wildcats) and 2898 (Flying Hedgehogs) in Beaverton, OR.
+              Team 1510 won the 2011 Cascade regional competition in Seattle 
+              and the 2011 Portland competition Chairman's award, 
+              so we were invited to the World Championship in St. Louis, where 
+              we came out around the middle of the field against 
+              the best teams in the world.  Both teams made the elimination rounds at 
+              the 2012 Oregon regional and at the 2012 Seattle regionals.  Though I
+              relocated to Westborough, Massachusetts in March, 2012, I coached team 2898 
+              in April one last time at the World Championship in St. Louis.<br />
+              <br />
+              
+            <p class="medium_link_indent"> 
+            	<a href="https://www.facebook.com/Redshift4048/videos/2178574615706341/"target="_blank" rel="noopener noreferrer">
+            		Drive practice and testing the 2018 robot with arm/gripper V2 and climber.</a></p> 
+            <p class="medium_link_indent"> 
+            	<a href="https://www.youtube.com/watch?v=wUDUTQLZ5QE">
+            		RedShift's 2013 robot blocking two shots during autonomous play at the New England championship.</a></p>
+            <p class="medium_text_indent"> 
+            	This was the talk of the tournament for the rest of the day.</p> 
+            <p class="medium_link_indent"> 
+            	<a href="http://team4048.org/">The RedShift web site</a></p>
+            <p class="medium_link_indent"> 
+            	<a href="https://www.facebook.com/Redshift4048">The RedShift facebook page</a></p>
+            <p class="medium_link_indent"> 
+            	<a href="https://www.youtube.com/user/FIRSTteam4048">The RedShift YouTube Channel</a></p>
+                <br />
+                There was a lot of good media coverage of FIRST Robotics over the years from very visible outlets like CNN and ABC.  Another
+                major shot in the arm for visibility of FIRST is the collaboration of Will.i.am, who has done a great deal to 
+                promote the program and competitions.
+                <br />
+                <br />
+        
+            <p class="medium_link_indent"> <a href="https://www.youtube.com/watch?v=gmiYWTmFRVE">2020 game animation</a></p><br />
+        
+            <p class="medium_link_indent">
+                <a href="http://www.youtube.com/watch?v=BohT20oUy4M&feature=player_embedded">i.am.FIRST: Science is Rock and Roll</a></p>
+                Will.i.am presents the 2011 FIRST Robotics World Championship, including clips of the half time concert by the Black Eyed Peas, and 
+                introduced by President Obama. Nine minutes and 39 seconds into the video, you can see team 1510's Quentin (in red) rocking out at 
+                the concert. This You Tube video was posted by FTC team 3415 <br />
+                <br />
+              
+            <p class="medium_link_indent"> 
+                <a href="https://youtu.be/e7ob1AfM1Dg">
+                Soledad O'Brien's CNN report on math and science education in America.</a></p>  
+                FIRST robotics is profiled as an example of a technology education program that works across
+                the demographic spectrum.  Lot's of FRC action here with teams 842, 1403 and 3675, three teams with 
+                very different demographics and students with very different stories. There are six parts to this video, 
+                hosted on YouTube by Team 2403, Plasma Robotics<br />
+                <br /> 
+              
+            <p class="medium_link_indent">
+                <a href="https://www.youtube.com/watch?v=Vv5utwR-Cfg">
+                Kareem Abdul-Jabbar, a strong FIRST supporter, with basketball playing robot at the 2012 FIRST World Championship</a><br />	
+                <br />
+                
+             <p class="medium_link_indent"> 
+            	<a href="http://www.youtube.com/watch?v=i1QyM9WTF18">2011 FIRST Robotics promotion with Morgan Freeman</a></p>
+                <br />      
+        
+        </div>
+        
+        <!-- Button and panel for links I use quite a bit -->
         <button class="accordion" name="personal" id="personal_button">Personal Links...</button>
         
+        <!-- This panel is set up to be responsive, switching to a single column when the window gets narrow -->
         <div class="panel" id="personal_panel">
             <div class="w3-row">
              	<div class="w3-third w3-container">
@@ -150,119 +269,27 @@
                 </div>
             </div> 
         </div>
-    
-        <button class="accordion" name="arts" id="family_arts_button">Family Arts Stuff...</button>
-        <div class="panel" id="family_arts_panel">
         
-            <p class="link"> <a href="Picturelib">My photo albums</a></p>
-              This takes you to my entire web archive of travel pictures.
-            <br />
-            
-            <p class="medium_link_indent"> <a href="http://www.edburdick.net/Picturelib/2017v-tanzania-trip//">Shortcut to my Serengeti Safari trip in Tanzania</a></p>
-            <br />
-            
-            <p class="link"> <a href="video/family">Family Video Clips</a></p>
-              This is some of our classic video clips from days long gone.<br /><br />
-        
-            <p class="topic_heading">Stacey Charpentier's Music Links</p>
-            <p class="small_link"> <a href="http://www.edburdick.net/music/stacey/schoolhouse1/taeduhs-school-house-recording_v2.html">Stacey's Studio Recordings</a></p><br />
-
-            <p class="topic_heading"> 
-            Rachel Burdick's Laudate Dominum solo with <a href="http://arsingers.org">ARS</a></p>
-            Rachel Burdick sings the solo part of this Mozart
-              piece from the Solemn Vespers. ARS is the Arizona Repertory Singers.    
-            <p class="link"> 
-              <a href="video/rachel_laudate/index.html">Video with introduction by the late Jeffry Jahn</a>
-              <br />
-              <a href="video/rachel_laudate/LaudateDominumRCB.mp3">MP3 audio</a>
-            </p>
-        </div>
-        
-        <button class="accordion" name="first" id="first_robotics_button">FIRST Robotics Stuff...</button>
-        <div class="panel" id="first_robotics_panel">
-            
-            <p class="link"> <a href="http://www.usfirst.org">FIRST Robotics</a></p>
-              I am a volunteer mentor and coach for FIRST Robotics Competition.  I am currently a 
-              mentor/coach on team 4048, RedShift, at Westborough High School, Westborough, MA.
-              RedShift's rookie year was 2012, and I joined at the beginning of the 2012-2013 school 
-              year. Besides sharing a lead mentor role with the founder of the team, my
-              main role is as the principal mentor on the hardware design and build and sharing 
-              coaching responsibilities at competitions. The team went to the world
-              championship in the 2015 season, and qualified for it in the 2016 season, deciding 
-              to decline for practical reasons (mentors had to work and the timing was not
-              right for the school year.) Regular competions were suspended in 2020 and 2021 because 
-              of the Covid-19 pandemic, but it looks like we will be able to start again
-              for the 2022 season.
-              <br />
-              <br />
-              
-              For the 2009 - 2012 seasons, I mentored and coached teams 1510 
-              (Wildcats) and 2898 (Flying Hedgehogs) in Beaverton, OR.
-              Team 1510 won the 2011 Cascade regional competition in Seattle 
-              and the 2011 Portland competition Chairman's award, 
-              so we were invited to the World Championship in St. Louis, where 
-              we came out around the middle of the field against 
-              the best teams in the world.  Both teams made the elimination rounds at 
-              the 2012 Oregon regional and at the 2012 Seattle regionals.  Though I
-              relocated to Westborough, Massachusetts in March, 2012, I coached team 2898 
-              in April one last time at the World Championship in St. Louis.<br />
-              <br />
-              
-            <p class="medium_link_indent"> 
-            	<a href="https://www.facebook.com/Redshift4048/videos/2178574615706341/"target="_blank" rel="noopener noreferrer">
-            		Drive practice and testing the 2018 robot with arm/gripper V2 and climber.</a></p> 
-            <p class="medium_link_indent"> 
-            	<a href="https://www.youtube.com/watch?v=wUDUTQLZ5QE">
-            		RedShift's 2013 robot blocking two shots during autonomous play at the New England championship.</a></p>
-            <p class="medium_text_indent"> 
-            	This was the talk of the tournament for the rest of the day.</p> 
-            <p class="medium_link_indent"> 
-            	<a href="http://team4048.org/">The RedShift web site</a></p>
-            <p class="medium_link_indent"> 
-            	<a href="https://www.facebook.com/Redshift4048">The RedShift facebook page</a></p>
-            <p class="medium_link_indent"> 
-            	<a href="https://www.youtube.com/user/FIRSTteam4048">The RedShift YouTube Channel</a></p>
-                <br />
-                There was a lot of good media coverage of FIRST Robotics over the years from very visible outlets like CNN and ABC.  Another
-                major shot in the arm for visibility of FIRST is the collaboration of Will.i.am, who has done a great deal to 
-                promote the program and competitions.
-                <br />
-                <br />
-        
-            <p class="medium_link_indent"> <a href="https://www.youtube.com/watch?v=gmiYWTmFRVE">2020 game animation</a></p><br />
-        
-            <p class="medium_link_indent">
-                <a href="http://www.youtube.com/watch?v=BohT20oUy4M&feature=player_embedded">i.am.FIRST: Science is Rock and Roll</a></p>
-                Will.i.am presents the 2011 FIRST Robotics World Championship, including clips of the half time concert by the Black Eyed Peas, and 
-                introduced by President Obama. Nine minutes and 39 seconds into the video, you can see team 1510's Quentin (in red) rocking out at 
-                the concert. This You Tube video was posted by FTC team 3415 <br />
-                <br />
-              
-            <p class="medium_link_indent"> 
-                <a href="https://youtu.be/e7ob1AfM1Dg">
-                Soledad O'Brien's CNN report on math and science education in America.</a></p>  
-                FIRST robotics is profiled as an example of a technology education program that works across
-                the demographic spectrum.  Lot's of FRC action here with teams 842, 1403 and 3675, three teams with 
-                very different demographics and students with very different stories. There are six parts to this video, 
-                hosted on YouTube by Team 2403, Plasma Robotics<br />
-                <br /> 
-              
-            <p class="medium_link_indent">
-                <a href="https://www.youtube.com/watch?v=Vv5utwR-Cfg">
-                Kareem Abdul-Jabbar, a strong FIRST supporter, with basketball playing robot at the 2012 FIRST World Championship</a><br />	
-                <br />
-                
-             <p class="medium_link_indent"> 
-            	<a href="http://www.youtube.com/watch?v=i1QyM9WTF18">2011 FIRST Robotics promotion with Morgan Freeman</a></p>
-                <br />      
-        
-        </div>
-        
-        <!-- debug line -->
-        <p id="report"></p>
-     <button onclick="scrollBody()">Scroll contents of body</button><br><br>
         <script>
         	
+        	  /*
+        	  Scroll the page some number of pixels. Different browsers define the "page" differently, either
+        	  as the body object (<body>), or the documentElement (<html> object, as indicated in the comments. 
+        	  We just do both methods. A positive value for the function argument scrolls the page upward.
+        	  */
+        	  function scrollPage(pixels) 
+        	  {
+                var body = document.body; // For Safari
+                body.scrollTop += pixels;
+                var html = document.documentElement; // For Chrome, Firefox, IE and Opera       
+                html.scrollTop += pixels;
+            }
+            
+        	  /*
+        	  Define the event listeners for the buttons that expand/contract the content panels. Each event listener
+        	  is a function that sets the display state of the panel and saves that state in a session variable so that
+        	  the state can be retored if the user leaves this page and returns to it. 
+        	  */
             var personalButton = document.getElementById("personal_button");
             var personalPanel = document.getElementById("personal_panel");         
             personalButton.addEventListener("click", function() 
@@ -274,6 +301,7 @@
                   else 
                   {
                       personalPanel.style.display = "block";
+                      scrollPage(-60); /* scroll the page up a little to reveal the links */
                   }
                   sessionStorage.personalPanelDisplay = personalPanel.style.display;
                   document.getElementById("report").innerHTML = this.name.concat(" ",personalPanel.style.display);
@@ -311,11 +339,14 @@
                   document.getElementById("report").innerHTML = this.name.concat(" ",firstPanel.style.display);
             });
             
+            /*
+            Action function to call whenever the page loads. It restores the saved display state of each of the content
+            panels. If a panel has never been expanded, then the session storage for it will not be defined, so we
+            check for that for each of them.
+            */
             function onLoadFunction()
             {
-            	  /*
-            	  alert(sessionStorage.personalPanelDisplay + " " + sessionStorage.famArtsPanelDisplay + " " +sessionStorage.firstPanelDisplay);
-            	  */
+ 
             	  if (sessionStorage.personalPanelDisplay)
             	      {
             	          personalPanel.style.display = sessionStorage.personalPanelDisplay;
@@ -330,13 +361,7 @@
                     }
             }
             
-            function scrollBody() {
-  var body = document.body; // For Safari
-  var html = document.documentElement; // Chrome, Firefox, IE and Opera places the overflow at the html level, unless else is specified. Therefore, we use the documentElement property for these browsers
- 
-  body.scrollTop -= 10;
-  html.scrollTop -= 10;
-}
+
         </script>
     </body>
 </html>

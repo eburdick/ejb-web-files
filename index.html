@@ -16,6 +16,7 @@
             p.medium_link_indent {font: bold 12pt helvetica, sans-serif; margin-left: 20px; margin-top:0; margin-bottom:0; }
             p.medium_text_indent {font: 12pt helvetica, sans-serif; margin-left: 30px; margin-top:0; margin-bottom:0; }
             p.small_link {font: bold 10pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+            .centered {text-align: center;}
             /*
             Set the style of the "accordion" buttons the expand and collapse the main panels of the page.
             The actually don't look like buttons because They are set with no border and a transparent background.
@@ -64,97 +65,12 @@
         />
         <br />
                 
-        <!-- Button and panel for links I use quite a bit -->
-        <button class="accordion" name="personal" id="personal_button">Personal Links...</button>
-        
-        <!-- This panel is set up to be responsive, switching to a single column when the window gets narrow -->
-        <div class="panel" id="personal_panel">
-            <div class="w3-row">
-             	<div class="w3-third w3-container">
-                   <a class="table_link" href="minimill-calc.html">MiniMill Assistant</a>
-                </div>
-                <div class="w3-third w3-container">
-                   <a class="table_link" href="http://www.google.com/">Google</a> 
-                </div>
-            	<div class="w3-third w3-container">
-                   <a class="table_link" href="https://www.dcu.org/index.html">DCU</a>
-                </div>
-            </div>
-            
-            <div class="w3-row">
-             	<div class="w3-third w3-container">
-             		<a class="table_link" href="http://edburdick.net/mw">My site MediaWiki</a>
-                </div>
-                <div class="w3-third w3-container">
-                    <a class="table_link" 
-                        href="http://forecast.weather.gov/MapClick.php?CityName=Westborough&state=MA&site=BOX&lat=42.2659&lon=-71.6171">
-                        NOAA Weather
-                    </a>
-                </div>
-            	<div class="w3-third w3-container">
-                    <a class="table_link" href="https://mychart.reliantmedicalgroup.org/mychart/">MyChart</a>
-                </div>
-            </div>
-         
-            <div class="w3-row">
-            	<div class="w3-third w3-container">
-            		<a class="table_link" href="http://edburdick.net/webmail">My site webmail</a>
-            	</div>
-            	<div class="w3-third w3-container">
-            		<a class="table_link" href="http://team4048.org">FRC Team 4048</a>
-            	</div>
-            	<div class="w3-third w3-container">
-            		<a class="table_link" href="https://www.aarpmedicareplans.com/aarp-members/sign-in">AARP Medigap</a>
-            	</div>
-            </div>
-        
-            <div class="w3-row">
-            	<div class="w3-third w3-container">
-            		<a class="table_link" href="https://chi.midphase.com/">edburdick.net Admin</a>
-                </div>
-                <div class="w3-third w3-container">
-               	    <a class="table_link" href="http://firstinspires.org">FIRST Robotics</a>
-                </div>
-           	    <div class="w3-third w3-container">           
-           		    <a class="table_link" href="https://intel.benevity.org/">Intel Benevity Login</a>
-                </div>
-            </div>
-            
-            <div class="w3-row">
-            	<div class="w3-third w3-container"> 
-            		<a class="table_link" href="http://localhost/index.html">Local Web Dev Area</a>
-                </div>
-                <div class="w3-third w3-container">            
-               	    <a class="table_link" href="http://www.ieee.org">IEEE</a>
-                </div>
-           	    <div class="w3-third w3-container"> 
-           		    <a class="table_link" href="http://www.mobal.com">Mobal Account</a>
-                </div>
-            </div>
-                  
-            <div class="w3-row">
-            	<div class="w3-third w3-container">
-            		<a class="table_link" href="http://www.cvsphoto.com/home">CVS Photo Center</a>
-                </div>
-                <div class="w3-third w3-container">
-               	    <a class="table_link" href="http://www.amazon.com">Amazon</a>
-                </div>
-           	    <div class="w3-third w3-container">
-           		    <a class="table_link" href="http://www.burdickfamily.org">burdickfamily.org</a>
-                </div>
-            </div>
-                   
-            <div class="w3-row">
-            	<div class="w3-third w3-container">
-            	    <a class="table_link" href="http://www.linkedin.com/pub/5/b01/976">LinkedIn</a>
-                </div>
-                <div class="w3-third w3-container">
-                    <a class="table_link" href="http://www.kayak.com">KAYAK travel site</a>       
-                </div>
-           	    <div class="w3-third w3-container">
-                    <a class="table_link" href="http://www.uucsw.org/">UUCSW</a>
-                </div>
-            </div> 
+        <div class="centered">
+            <p class="link"> <a href="Picturelib">Featured Link: My photo albums</a></p>
+            This takes you to my entire web archive of travel pictures. 
+            <br />
+            <p class="medium_link_indent"> <a href="http://www.edburdick.net/Picturelib/2017v-tanzania-trip//">Shortcut to my Serengeti Safari trip in Tanzania</a></p>
+            <br />
         </div>
     
         <!-- Button and panel for links to family arts stuff, including my photography, family videos and 
@@ -162,12 +78,6 @@
         <button class="accordion" name="arts" id="family_arts_button">Family Arts Stuff...</button>
         <div class="panel" id="family_arts_panel">
         
-            <p class="link"> <a href="Picturelib">My photo albums</a></p>
-              This takes you to my entire web archive of travel pictures.
-            <br />
-            
-            <p class="medium_link_indent"> <a href="http://www.edburdick.net/Picturelib/2017v-tanzania-trip//">Shortcut to my Serengeti Safari trip in Tanzania</a></p>
-            <br />
             
             <p class="link"> <a href="video/family">Family Video Clips</a></p>
               This is some of our classic video clips from days long gone.<br /><br />
@@ -267,11 +177,118 @@
         
         </div>
         
+        <!-- Button and panel for links I use quite a bit -->
+        <button class="accordion" name="personal" id="personal_button">Personal Links...</button>
+        
+        <!-- This panel is set up to be responsive, switching to a single column when the window gets narrow -->
+        <div class="panel" id="personal_panel">
+            <div class="w3-row">
+             	<div class="w3-third w3-container">
+                   <a class="table_link" href="minimill-calc.html">MiniMill Assistant</a>
+                </div>
+                <div class="w3-third w3-container">
+                   <a class="table_link" href="http://www.google.com/">Google</a> 
+                </div>
+            	<div class="w3-third w3-container">
+                   <a class="table_link" href="https://www.dcu.org/index.html">DCU</a>
+                </div>
+            </div>
+            
+            <div class="w3-row">
+             	<div class="w3-third w3-container">
+             		<a class="table_link" href="http://edburdick.net/mw">My site MediaWiki</a>
+                </div>
+                <div class="w3-third w3-container">
+                    <a class="table_link" 
+                        href="http://forecast.weather.gov/MapClick.php?CityName=Westborough&state=MA&site=BOX&lat=42.2659&lon=-71.6171">
+                        NOAA Weather
+                    </a>
+                </div>
+            	<div class="w3-third w3-container">
+                    <a class="table_link" href="https://mychart.reliantmedicalgroup.org/mychart/">MyChart</a>
+                </div>
+            </div>
+         
+            <div class="w3-row">
+            	<div class="w3-third w3-container">
+            		<a class="table_link" href="http://edburdick.net/webmail">My site webmail</a>
+            	</div>
+            	<div class="w3-third w3-container">
+            		<a class="table_link" href="http://team4048.org">FRC Team 4048</a>
+            	</div>
+            	<div class="w3-third w3-container">
+            		<a class="table_link" href="https://www.aarpmedicareplans.com/aarp-members/sign-in">AARP Medigap</a>
+            	</div>
+            </div>
+        
+            <div class="w3-row">
+            	<div class="w3-third w3-container">
+            		<a class="table_link" href="https://chi.midphase.com/">edburdick.net Admin</a>
+                </div>
+                <div class="w3-third w3-container">
+               	    <a class="table_link" href="http://firstinspires.org">FIRST Robotics</a>
+                </div>
+           	    <div class="w3-third w3-container">           
+           		    <a class="table_link" href="https://intel.benevity.org/">Intel Benevity Login</a>
+                </div>
+            </div>
+            
+            <div class="w3-row">
+            	<div class="w3-third w3-container"> 
+            		<a class="table_link" href="http://localhost/index.html">Local Web Dev Area</a>
+                </div>
+                <div class="w3-third w3-container">            
+               	    <a class="table_link" href="http://www.ieee.org">IEEE</a>
+                </div>
+           	    <div class="w3-third w3-container"> 
+           		    <a class="table_link" href="http://www.mobal.com">Mobal Account</a>
+                </div>
+            </div>
+                  
+            <div class="w3-row">
+            	<div class="w3-third w3-container">
+            		<a class="table_link" href="http://www.cvsphoto.com/home">CVS Photo Center</a>
+                </div>
+                <div class="w3-third w3-container">
+               	    <a class="table_link" href="http://www.amazon.com">Amazon</a>
+                </div>
+           	    <div class="w3-third w3-container">
+           		    <a class="table_link" href="http://www.burdickfamily.org">burdickfamily.org</a>
+                </div>
+            </div>
+                   
+            <div class="w3-row">
+            	<div class="w3-third w3-container">
+            	    <a class="table_link" href="http://www.linkedin.com/pub/5/b01/976">LinkedIn</a>
+                </div>
+                <div class="w3-third w3-container">
+                    <a class="table_link" href="http://www.kayak.com">KAYAK travel site</a>       
+                </div>
+           	    <div class="w3-third w3-container">
+                    <a class="table_link" href="http://www.uucsw.org/">UUCSW</a>
+                </div>
+            </div> 
+        </div>
+        
         <script>
+        	
+        	  /*
+        	  Scroll the page some number of pixels. Different browsers define the "page" differently, either
+        	  as the body object (<body>), or the documentElement (<html> object, as indicated in the comments. 
+        	  We just do both methods. A positive value for the function argument scrolls the page upward.
+        	  */
+        	  function scrollPage(pixels) 
+        	  {
+                var body = document.body; // For Safari
+                body.scrollTop += pixels;
+                var html = document.documentElement; // For Chrome, Firefox, IE and Opera       
+                html.scrollTop += pixels;
+            }
+            
         	  /*
         	  Define the event listeners for the buttons that expand/contract the content panels. Each event listener
         	  is a function that sets the display state of the panel and saves that state in a session variable so that
-        	  the state can be retored if the user leaves this page and returns to it.
+        	  the state can be retored if the user leaves this page and returns to it. 
         	  */
             var personalButton = document.getElementById("personal_button");
             var personalPanel = document.getElementById("personal_panel");         
@@ -284,6 +301,7 @@
                   else 
                   {
                       personalPanel.style.display = "block";
+                      scrollPage(60); /* scroll the page up a little to reveal the links */
                   }
                   sessionStorage.personalPanelDisplay = personalPanel.style.display;
                   document.getElementById("report").innerHTML = this.name.concat(" ",personalPanel.style.display);
