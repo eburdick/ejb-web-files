@@ -16,26 +16,30 @@
             p.medium_link_indent {font: bold 12pt helvetica, sans-serif; margin-left: 20px; margin-top:0; margin-bottom:0; }
             p.medium_text_indent {font: 12pt helvetica, sans-serif; margin-left: 30px; margin-top:0; margin-bottom:0; }
             p.small_link {font: bold 10pt helvetica, sans-serif; margin-top:0; margin-bottom:0;}
+            /*
+            Set the style of the "accordion" buttons the expand and collapse the main panels of the page.
+            The actually don't look like buttons because They are set with no border and a transparent background.
+            */
             .accordion 
             {
-                background-color: #eee;
-                color: "black";
+                color: blue;
                 cursor: pointer;
                 padding: 5px;
                 width: 100%;
-                border: 10px solid white;
+                border: 0;
                 text-align: center;
                 outline: none;
-                font: 24pt helvetica;
+                font: 14pt helvetica;
                 font-size: 24px;
                 transition: 0.4s;
+                background: transparent; 
+                border: 0;
             }
           
-            .active, .accordion:hover 
-            {
-                background-color: #ccc; 
-            }
-              
+            /*
+            Display panel style. It is set to not display, but the event functions for the corresponding
+            buttons toggle the display between "none" and "block", where "block" makes the panel visible
+            */
             .panel 
             {
                 padding: 0 5px;
@@ -44,11 +48,12 @@
                 overflow: hidden;
             }
         </style>
+        
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <title>Ed Burdick's Home Page</title>
     </head>
     
-    <body>
+    <body onload="onLoadFunction()">
     
         <h1 class="title_line">Ed Burdick's Home Page</h1>
           
@@ -59,9 +64,11 @@
         />
         <br />
                 
-        <button class="accordion" name="personal">Personal Links</button>
+        <!-- Button and panel for links I use quite a bit -->
+        <button class="accordion" name="personal" id="personal_button">Personal Links...</button>
         
-        <div class="panel">
+        <!-- This panel is set up to be responsive, switching to a single column when the window gets narrow -->
+        <div class="panel" id="personal_panel">
             <div class="w3-row">
              	<div class="w3-third w3-container">
                    <a class="table_link" href="minimill-calc.html">MiniMill Assistant</a>
@@ -150,8 +157,10 @@
             </div> 
         </div>
     
-        <button class="accordion" name="arts">Family Arts Stuff</button>
-        <div class="panel">
+        <!-- Button and panel for links to family arts stuff, including my photography, family videos and 
+        musical performances -->
+        <button class="accordion" name="arts" id="family_arts_button">Family Arts Stuff...</button>
+        <div class="panel" id="family_arts_panel">
         
             <p class="link"> <a href="Picturelib">My photo albums</a></p>
               This takes you to my entire web archive of travel pictures.
@@ -177,8 +186,9 @@
             </p>
         </div>
         
-        <button class="accordion" name="first">FIRST Robotics Stuff</button>
-        <div class="panel">
+        <!-- button and panel for my first robotics stuff -->
+        <button class="accordion" name="first" id="first_robotics_button">FIRST Robotics Stuff...</button>
+        <div class="panel" id="first_robotics_panel">
             
             <p class="link"> <a href="http://www.usfirst.org">FIRST Robotics</a></p>
               I am a volunteer mentor and coach for FIRST Robotics Competition.  I am currently a 
@@ -256,30 +266,84 @@
                 <br />      
         
         </div>
-     <p id="report"></p>
+        
         <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-            
-            for (i = 0; i < acc.length; i++) 
+        	  /*
+        	  Define the event listeners for the buttons that expand/contract the content panels. Each event listener
+        	  is a function that sets the display state of the panel and saves that state in a session variable so that
+        	  the state can be retored if the user leaves this page and returns to it.
+        	  */
+            var personalButton = document.getElementById("personal_button");
+            var personalPanel = document.getElementById("personal_panel");         
+            personalButton.addEventListener("click", function() 
             {
-                acc[i].addEventListener("click", function() 
-                {
-                      this.classList.toggle("active");
-                      var panel = this.nextElementSibling;
-                      if (panel.style.display === "block") 
-                      {
-                          panel.style.display = "none";
-                      } 
-                      else 
-                      {
-                          panel.style.display = "block";
-                      }
-                      document.getElementById("report").innerHTML = this.name.concat(" ",panel.style.display);
+                  if (personalPanel.style.display === "block") 
+                  {
+                      personalPanel.style.display = "none";
+                  } 
+                  else 
+                  {
+                      personalPanel.style.display = "block";
+                  }
+                  sessionStorage.personalPanelDisplay = personalPanel.style.display;
+                  document.getElementById("report").innerHTML = this.name.concat(" ",personalPanel.style.display);
+            });
+            
+            var famArtsButton = document.getElementById("family_arts_button");
+            var famArtsPanel = document.getElementById("family_arts_panel");           
+            famArtsButton.addEventListener("click", function() 
+            {
+                  if (famArtsPanel.style.display === "block") 
+                  {
+                      famArtsPanel.style.display = "none";
+                  } 
+                  else 
+                  {
+                      famArtsPanel.style.display = "block";
+                  }
+                  sessionStorage.famArtsPanelDisplay = famArtsPanel.style.display;
+                  document.getElementById("report").innerHTML = this.name.concat(" ",famArtsPanel.style.display);
+            });
+            
+            var firstButton = document.getElementById("first_robotics_button");
+            var firstPanel = document.getElementById("first_robotics_panel");
+            firstButton.addEventListener("click", function() 
+            {
+                  if (firstPanel.style.display === "block") 
+                  {
+                      firstPanel.style.display = "none";
+                  } 
+                  else 
+                  {
+                      firstPanel.style.display = "block";
+                  }
+                  sessionStorage.firstPanelDisplay = firstPanel.style.display;
+                  document.getElementById("report").innerHTML = this.name.concat(" ",firstPanel.style.display);
+            });
+            
+            /*
+            Action function to call whenever the page loads. It restores the saved display state of each of the content
+            panels. If a panel has never been expanded, then the session storage for it will not be defined, so we
+            check for that for each of them.
+            */
+            function onLoadFunction()
+            {
  
-                });
+            	  if (sessionStorage.personalPanelDisplay)
+            	      {
+            	          personalPanel.style.display = sessionStorage.personalPanelDisplay;
+                    }
+                if (sessionStorage.famArtsPanelDisplay)
+            	      {
+            	          famArtsPanel.style.display = sessionStorage.famArtsPanelDisplay;
+                    }
+                if (sessionStorage.firstPanelDisplay)
+            	      {
+            	          firstPanel.style.display = sessionStorage.firstPanelDisplay;
+                    }
             }
+            
+
         </script>
-    
     </body>
 </html>
