@@ -301,7 +301,7 @@
                   else 
                   {
                       personalPanel.style.display = "block";
-                      scrollPage(-60); /* scroll the page up a little to reveal the links */
+                      scrollPage(60); /* scroll the page up a little to reveal the links */
                   }
                   sessionStorage.personalPanelDisplay = personalPanel.style.display;
                   document.getElementById("report").innerHTML = this.name.concat(" ",personalPanel.style.display);

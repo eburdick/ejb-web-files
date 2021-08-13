@@ -304,7 +304,6 @@
                       scrollPage(60); /* scroll the page up a little to reveal the links */
                   }
                   sessionStorage.personalPanelDisplay = personalPanel.style.display;
-                  document.getElementById("report").innerHTML = this.name.concat(" ",personalPanel.style.display);
             });
             
             var famArtsButton = document.getElementById("family_arts_button");
@@ -320,7 +319,6 @@
                       famArtsPanel.style.display = "block";
                   }
                   sessionStorage.famArtsPanelDisplay = famArtsPanel.style.display;
-                  document.getElementById("report").innerHTML = this.name.concat(" ",famArtsPanel.style.display);
             });
             
             var firstButton = document.getElementById("first_robotics_button");
@@ -336,7 +334,6 @@
                       firstPanel.style.display = "block";
                   }
                   sessionStorage.firstPanelDisplay = firstPanel.style.display;
-                  document.getElementById("report").innerHTML = this.name.concat(" ",firstPanel.style.display);
             });
             
             /*
